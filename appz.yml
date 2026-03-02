@@ -8,9 +8,9 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: node-14.21
+    image_template: node-22.11
 
-
+    
 deploy:
     context: nithinc-cloud/DEV
     replicas: 1
